@@ -1,0 +1,20 @@
+{
+    "name": "jimbojsb/github-repoevents",
+    "description": "A standalone client for parsing the Github Repo Events API",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Josh Butts",
+            "email": "josh@joshbutts.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "GithubRepoEvents\\": "src/"
+        }
+    },
+    "require": {
+        "resty/resty": "^0.6.0",
+        "php": ">= 5.5"
+    }
+}
