@@ -1,5 +1,5 @@
 {
-    "name": "jimbojsb/github-repoevents",
+    "name": "jimbojsb/github-repo-events",
     "description": "A standalone client for parsing the Github Repo Events API",
     "license": "MIT",
     "authors": [
