@@ -69,7 +69,7 @@ class RepositoryEventStream implements \IteratorAggregate
 
         $response = $resty->get($path, $query, $headers);
 
-        if (isset($response["headers"]["ETag"])) {
+        if (isset($response["headers"]["ETag"]) && $page == 1) {
             $this->etag = $response["headers"]["ETag"];
         }
 
