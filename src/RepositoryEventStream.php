@@ -12,9 +12,6 @@ class RepositoryEventStream implements \IteratorAggregate
     protected $etag;
     protected $repo;
     protected $currentPage = 1;
-    protected $itemOnPage = 1;
-    protected $iteratedEvents = [];
-    protected $hasNewEvents = true;
 
     public function __construct($repo, $apiKey = null)
     {
